@@ -1,0 +1,11 @@
+h1 {
+    text-align: center;
+    color: white;
+    font-family: "Monaco", "Lucidia Console", monospace;
+    font-weight: bold;
+    top: 50%;
+}
+
+body {
+    background-color: indigo;
+}
