@@ -6,6 +6,13 @@ h1 {
     top: 50%;
 }
 
+p1 {
+    text-align: center;
+    color: gray;
+    font-family: "Monaco", "Lucidia Console", monospace;
+    font-weight: normal;
+}
+
 body1 {
     background-color: indigo;
 }
