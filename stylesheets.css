@@ -6,8 +6,10 @@ h1 {
 }
 
 p1 {
-    text-align: center;
-    color: gray;
+    position: relative;
+    left: 50%;
+    text-align: left;
+    color: white;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: normal;
 }
