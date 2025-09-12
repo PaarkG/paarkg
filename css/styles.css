@@ -1,0 +1,98 @@
+:root {
+    --main-bg-color: lightskyblue;
+    --main-text-color: black;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(../fonts/Montserrat-Regular.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: Montserrat-Medium;
+    src: url(../fonts/Montserrat-Medium.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: Montserrat-Bold;
+    src: url(../fonts/Montserrat-Bold.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: Montserrat-Black;
+    src: url(../fonts/Montserrat-Black.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: Montserrat-Light;
+    src: url(../fonts/Montserrat-Light.ttf) format("truetype");
+}
+
+body {
+    background-color: var(--main-bg-color);
+}
+
+h1 {
+    font-family: Montserrat-Bold;
+    display: inline-block;
+    margin-right: auto;
+    margin-left: 2%;
+}
+
+h2 {
+    margin-left: 2%;
+    font-family: Montserrat-Medium;
+}
+
+h3 {
+    margin-left: 2%;
+    font-family: Montserrat;
+}
+
+h4 {
+    margin-left: 2%;
+    font-family: Montserrat;
+}
+
+p {
+    margin-left: 2%;
+    font-family: Montserrat;
+}
+
+.headerDiv {
+    background-color: whitesmoke;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.headerButtons {
+    background-color: orange;
+    border-radius: 5px;
+    display: inline-block;
+    width: 20%;
+    min-width: min-content;
+    text-decoration: none;
+    color: var(--main-text-color);
+    font-family: Montserrat-Black;
+    text-align: center;
+    font-size: larger;
+    padding: 5px;
+    margin-right: 1%;
+}
+
+a {
+    text-decoration: none;
+    color: var(--main-text-color)
+}
+
+a:visited {
+    text-decoration: none;
+    color: var(--main-text-color)
+}
