@@ -104,15 +104,22 @@ p {
     margin-right: 1%;
 }
 
+.headerButtons:hover {
+    transform: scale(1.05);
+    border-width: 40%;
+    border-style: outset;
+    border-color: black;
+}
+
 .textWithImageContainer {
     display: flex;
 }
 
 .aboutImages {
     display: inline-block;
-    max-width: 30%;
-    max-height: 50vh;
-    height: auto;
+    max-width: 20%;
+    width: auto;
+    height: 10%;
     margin-right: 1%;
 }
 
